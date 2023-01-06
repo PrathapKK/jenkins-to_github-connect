@@ -56,6 +56,7 @@ pipeline {
             // the always stage can contain build steps like other stages
             // a "steps{...}" section is not needed.
             echo "This step will run after all other steps have finished.  It will always run, even in the status of the build is not SUCCESS"
+            echo "Pushing the change in pipeline from github"
         }
     }
 }
